@@ -1,0 +1,7 @@
+{
+  "name": "ProjIonic8",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
