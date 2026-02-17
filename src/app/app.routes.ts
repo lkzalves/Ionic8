@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+import { Routes, RouterModule  } from '@angular/router';
 
 export const routes: Routes = [
   {
@@ -9,5 +9,9 @@ export const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full',
+  },
+  {
+    path: 'contact',
+    loadComponent: () => import('./contact/contact.page').then( m => m.ContactPage)
   },
 ];
